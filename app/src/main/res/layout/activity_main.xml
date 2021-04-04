@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fcfcfc"
+    tools:context=".MainActivity">
+
+        <TextView
+            android:textSize="26dp"
+            android:layout_width="match_parent"
+            android:layout_marginTop="90dp"
+            android:textColor="#FFFFFF"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="terms"/>
+
+        <Button
+            android:id="@+id/food"
+            android:layout_marginTop="30dp"
+            android:text="food"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            />
+
+        <Button
+            android:id="@+id/clothes"
+            android:layout_marginTop="30dp"
+            android:text="clothes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            />
+
+        <Button
+            android:id="@+id/electronic"
+            android:layout_marginTop="30dp"
+            android:text="electronic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            />
+
+    </LinearLayout>
+
